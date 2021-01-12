@@ -5,7 +5,9 @@ With the help of the beautifully diverse community that makes up [Fetlife](https
 ### Languages FetLife is Currently Available In
 
 - [Bulgarian](locales/bg.yml)
-- [Chinese (Simplified)](locales/zh.yml)
+- [Chinese (Simplified)](locales/zh_CN.yml)
+- [Chinese (Traditional, Hong Kong)](locales/zh-HK.yml)
+- [Chinese (Traditional, Taiwan)](locales/zh-TW.yml)
 - [Dutch](locales/nl.yml)
 - [English](locales/en.yml)
 - [French](locales/fr.yml)

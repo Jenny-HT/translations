@@ -25,7 +25,7 @@ zh:
     step: 步骤
   edit_profile:
     sidebar_questions:
-      pics_and_vids_discoverability_a: 当有人使用FetLife搜索时，你的怪癖照片和视频只会被朋友和粉丝看到。如果你想对其他FetLife使用者可见，请更新你的隐私设置。
+      pics_and_vids_discoverability_a: 当有人使用 FetLife 搜索时，你的怪癖照片和视频只会被朋友和粉丝看到。如果你想对其他 FetLife 使用者可见，请更新你的隐私设置。
       pics_and_vids_discoverability_link: 访问设置
       pics_and_vids_discoverability_q: 保持私密
   feed:
@@ -124,7 +124,7 @@ zh:
       community: 社区守则
       content: 内容守则
       group_leader: 小组管理员守则
-      values: Guiding Values
+      values: 核心价值
     last_updated: 最近更新于：
     sections:
       guidelines:
@@ -326,12 +326,12 @@ zh:
   sidebar:
     about_fetlife: 关于 Fetlife
     ad_stats: 广告统计
-    advertisers: All Advertisers
+    advertisers: 赞助商
     advertising: 广告
     already_member: 已经注册过？
     androidapp: 安装 FetLife Android 应用
     bug_bounty: 悬赏 Bug
-    careers: Careers
+    careers: 招聘
     caretaking: 社区管理工具
     change_language: 更改语言
     close: 关闭
@@ -341,9 +341,9 @@ zh:
     events: 线下活动
     fetishes: 癖好
     following: 我关注的
-    formatting: Formatting Guidelines
+    formatting: 排版指南
     fp: 鲜嫩多汁
-    friends_and_following: Friends & Following
+    friends_and_following: 好友及关注
     funny_quote: 如果你看不清的话……你大约需要眼镜了！——约翰福音 4:69
     gift_support: 送别人「FetLife 赞助会员」
     glossary: 术语表
@@ -377,11 +377,11 @@ zh:
   signup:
     almost_there: 快搞定了！
     error_bar: 哦我的上帝，我们有麻烦了……向下滚动查看详情。
-    error_bar_invalid_credentials: Looks like your Nickname, Email or Password is incorrect, please try again!
+    error_bar_invalid_credentials: 你的昵称、邮箱或密码似乎有误，请重试！
     error_birthdate: 出生日期必填。
     error_birthdate_too_old: 你太老了。
     error_birthdate_too_young: 抱歉，满 18 岁才可加入。
-    error_birthdate_too_young_on_update: 抱歉，你必须得满18岁才能使用Fetlife。
+    error_birthdate_too_young_on_update: 抱歉，你必须得满 18 岁才能使用Fetlife。
     error_city_missing: 城市必填。
     error_country_missing: 国家必填。
     error_email: 我们无法成功处理该地址。请检查地址是否正确，或者更换其它地址重试。
@@ -515,8 +515,8 @@ zh:
       address_blank: 地址不能为空
       answer_blank: 答案不能为空
       bankcode_blank: 银行代码不能为空
-      bic_blank: BIC不能为空
-      bic_format: 无效的BIC
+      bic_blank: BIC 不能为空
+      bic_format: 无效的 BIC
       canceled: 用户取消了转账。
       city_blank: 城市不能为空
       country_blank: 国家不能为空

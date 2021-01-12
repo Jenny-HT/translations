@@ -1,0 +1,852 @@
+---
+zh:
+  2fa:
+    5strike:
+      return: 返回首頁
+      subtitle: 糟糕。出於安全考慮，兩小時內你不能再試圖登入。
+      title: 五次登入失敗
+    cta: 是我！放我進去！
+    error: "<strong>親愛的小變態：</strong>呃&hellip; 上面這個驗證碼似乎是錯的。請再檢查一下它是否和你收到的驗證碼一致再重試。"
+    label: 驗證授權碼
+    page_title: 兩步驗證
+    subtitle: 給我來個兩步驗證吧！
+    title: 安全碼
+  about:
+    contact_info: 聯繫方式
+    email_us: 請發郵件至 <a href="mailto:support@fetlife.com">support@fetlife.com</a>，我們會盡快回復——就像抹了潤滑油一樣快!
+    europe: 歐洲
+    got_question: 有疑問？需要幫助？
+    north_america: 北美
+    one_love: 一生一愛情，還有非常大量的怪癖。
+    snail_mail: 老派郵件地址
+    sub_header: 不，不是斯巴達
+    title: 我們・是・FetLife！
+  components:
+    step: 步驟
+  edit_profile:
+    sidebar_questions:
+      pics_and_vids_discoverability_a: 當有人使用 FetLife 搜索時，你的怪癖照片和視頻只會被朋友和粉絲看到。如果你想對其他 FetLife 使用者可見，請更新你的隱私設置。
+      pics_and_vids_discoverability_link: 訪問設置
+      pics_and_vids_discoverability_q: 保持私密
+  feed:
+    comment: 評論
+    comments_count:
+      one: 一條評論
+      other: "%{count_with_delimiter} 條評論"
+    composer:
+      button: 發表
+      placeholder: 你想説點啥？
+    love: 大讚
+    loved_hover: 傷心了！:-(
+    loves_count:
+      one: 一個贊
+      other: "%{count_with_delimiter} 個贊"
+    modal:
+      close: 關閉
+      more: 更多
+      reply: 回覆
+    title: 動態
+  following:
+    follow: 關注
+    following: 關注中
+  footer:
+    advertising: 廣告
+    contact: 聯繫我們
+    glossary: 術語表
+    help: 幫助
+    privacy: 隱私
+  forgot_password:
+    email:
+      cta: 發送密碼重置郵件
+      error_forgot_email: 郵箱地址必填。
+      error_invalid_email: 這看上去不像個郵箱地址啊喂。仔細檢查一下再重新提交吧。
+      error_quota: 我們剛剛給上面的郵箱地址發了重置郵件，可能得花幾個幾分鐘到達你的郵箱。如果10分鐘後還是沒收到，請再查查看垃圾郵件分類。如果垃圾郵件箱裏也沒有的話，你可能就得再來一次。
+      placeholder: 郵箱地址。
+      step1:
+        page_title: 通過郵件重置密碼
+        subtitle: 我來幫你搞掂。
+        title: 忘了密碼？
+      step2:
+        page_title: 你也許會收到郵件
+        subtitle: 如果系統裏有通過 <span class='fw7'>%{given_email}</span> 註冊的用户的話，那我們已經發了一封重置密碼用的郵件了。
+        title: 你&ldquo;也許&rdquo;會收到郵件
+      update_email: 更改郵箱地址
+      warning: "<strong>提示：</strong>出於安全考慮，我們不能告訴你這個郵箱地址有沒有出現在我們的數據庫裏。如果你沒有收到郵件，那大抵就是沒有任何用户關聯過這個郵箱地址了。"
+    mobile:
+      5strike:
+        return: 返回首頁
+        subtitle: 糟糕。出於安全考慮，兩小時內你不能再試圖登入。
+        title: 五次登入失敗
+      cta: 發短信給我
+      error_country_code: "<strong>親愛的小變態：</strong>請確保你在號碼前加了國際區號：例如美國和加拿大的 +1、英國的 +44、澳洲的 +61、荷蘭的 +31、德國的 +49、法國的 +33 等等……"
+      error_quota: "<strong>親愛的小變態：</strong>糟糕，我們 24 小時內只能向同一號碼發送三條短信，無論這個號碼是否真的存在在我們的用户列表裏。"
+      pro_tip: "<strong>注意：</strong>請確保你在號碼前加了國際區號：例如美國和加拿大的 +1、英國的 +44、澳洲的 +61、荷蘭的 +31、德國的 +49、法國的 +33 等等……"
+      step1:
+        page_title: 通過短信重置密碼
+        subtitle: 我來幫你搞掂。
+        title: 忘了密碼？
+      step2:
+        cta: 驗證你的身份 &#8482;
+        error_code_match: "<strong>親愛的小變態：</strong>你輸入的驗證碼不對。請確認你輸入的和你收到的驗證碼一致，再重試。"
+        inexisting_number: 如果過了好一會兒你還沒收到，那可能是因為你沒有綁定過這個號碼。我們建議你要麼<a href="%{forgot_password_email_path}">使用其它方式重置密碼</a>，要麼<a href="%{signup_path}">重新註冊個用户</a>吧。
+        label: 6 位驗證碼
+        page_title: 輸入驗證碼
+        subtitle: 請輸入我們也許已經發至 %{phone_number} 的 6 位驗證碼。
+        title: 輸入驗證碼
+      warning: "<strong>提示：</strong>出於安全考慮，我們不能告訴你這個手機號有沒有出現在我們的數據庫裏。如果你沒有收到短信，那大抵就是沒有任何用户關聯過這個手機號了。"
+    next_step: 下一步
+    return_to_login: 返回登入頁
+    tab_email: 郵箱
+    tab_mobile: 手機號
+  groups:
+    new:
+      description_label: 描述
+      description_placeholder: 這個小組是幹嘛的？
+      loader_text: Oh no you didn't!
+      membership_restrictions_label: 面向誰？
+      membership_restrictions_placeholder: 比如，submissives
+      membership_restrictions_sub_label: 如果來者不拒，就留空這裏
+      name_label: 名稱
+      name_placeholder: 給小組取個好聽的名兒
+      page_title: 創建新的小組
+      return_to_groups_link_text: 返回羣組列表
+      rules_label: 守則
+      rules_placeholder: 這個小組的守則是什麼?
+      submit_button_text: 創建我的新小組
+      terms_and_conditions_community_guidelines_link: 社區守則
+      terms_and_conditions_group_leader_guidelines_link: 小組管理員守則
+      terms_and_conditions_terms_of_use_link: 用户協議
+      title_description: 一個讓變態們分享經驗，交流愛好，制定計劃等等的地方！
+      title_title: 創建新的小組
+  guidelines:
+    header: FetLife 指南與守則
+    headers:
+      community: 社區守則
+      content: 內容守則
+      group_leader: 小組管理員守則
+      values: 核心價值
+    last_updated: 最近更新於：
+    sections:
+      guidelines:
+        description: 為保證每個人都能享受 FetLife，我們請求所有用户遵守我們的內容、社羣及小組守則。
+        title: 守則
+      legalese:
+        description: 此部分為所有用户註冊 FetLife 時所同意的使用條款。我們已讓其儘可能簡潔明瞭。
+        title: 條款
+      privacy:
+        description: FetLife 怎樣保護你的數據安全？在 FetLife，我們如同對待自己的數據一樣保護你的數據隱私。
+        title: 隱私
+    subheader: 你能在這裏看到我們的網站守則、法律信息以及隱私政策。
+    subnav:
+      community: 社羣
+      content: 內容
+      group_leader: 小組管理員
+      values: Values
+    title: 守則
+  invite_a_friend:
+    cancel_button: 取消
+    cancel_notice: 發給 %{email} 的邀請已被撤銷。
+    cta: 邀請你的好友加入 FetLife
+    error: 我們無法成功發送郵件至該地址。請檢查地址是否正確，或者更換其它地址重試。
+    error_forgot_email: 郵箱地址必填。
+    invitations_accepted: 邀請已被接受
+    invitations_sent: 邀請已發出
+    labels:
+      email: 郵箱地址
+      friends_email: 發送邀請至：
+      friends_email_sub: 剩餘 %{count} 個邀請名額
+    next_step: 下一步
+    return_to_feed: 返回動態頁
+    subtitle_step1:
+      one: 你還剩下一個邀請名額
+      other: 你還剩下 %{count_with_delimiter} 個邀請名額。
+    subtitle_step2: 我們已為你邀請了 %{email}。
+    title_step1: 邀請好友
+    title_step2: 邀請已發送
+    view_invitations: 查看你發出的邀請
+  landing_page:
+    login_button: 登入 FetLife
+    signup_button: 註冊 FetLife
+    stats_details: 在此分享 <strong class="fw4 silver">%{picture_count} 張圖片</strong>、<strong class="fw4 silver">%{video_count} 部視頻</strong>、在 <strong class="fw4 silver">%{group_count} 個小組中</strong>參與 <strong class="fw4 silver">%{discussion_count} 次討論</strong>，並前往 <strong class="fw4 silver">%{event_count} 次即將舉辦的線下活動</strong>，還在閲讀 <strong class="fw4 silver">%{post_count} 篇博文</strong>。<span><span class="i">Kink の天堂！</span>
+    stats_members: 名會員
+    subtitle: 有點像 Facebook，但是是如你我一樣的性癖者在運作。我們覺得這有意思多了，不是嗎？
+    title: FetLife 是屬於 BDSM、戀物及其它性癖者社羣的社交網絡。
+  legalese:
+    headers:
+      2257_exempt: 2257 豁免條款
+      legal_requests: 法務請求
+      privacy_policy: 隱私政策
+      terms_of_use: 使用條款
+    subnav:
+      2257_exempt: 2257 豁免條款
+      legal_requests: 法務請求
+      privacy: 隱私政策
+      terms: 使用條款
+    title: 法律事宜
+  lockout:
+    subtitle: 你觸發了我們的安全系統。
+    title: 保安！安保！保衞！快來！
+  login:
+    button: 登入 FetLife
+    error_flash: 請聯繫 <a href="mailto:support@fetlife.com">support@fetlife.com</a> 以便我們協助你登入
+    error_login_blank: 暱稱或郵箱不能為空。
+    error_not_authenticated: 抱歉朋友，這個頁面僅限登入後才可查看。如果你還不是本站用户的話，一分鐘都用不了就可以立刻註冊。
+    error_not_found: 唔……我們找不到相應的記錄。你確認你的用户名密碼都輸對了？（別忘了，密碼是大小寫敏感的）
+    error_password_blacklist: 你設的密碼太容易猜出來了。換一個強一點的吧。
+    error_password_blank: 密碼不能為空。
+    error_password_email: 密碼不能就是你的郵箱名。
+    error_password_nickname: 你的密碼和用户名不能一樣。
+    forgot_info: 忘了你的登入信息？
+    labels:
+      nickname: 暱稱或郵箱
+      password: 密碼
+      remember_me: 記住我，我還來。
+    not_a_member: 還不是註冊用户？現在註冊 FetLife
+    subtitle: 我們想死你啦
+    title: 歡迎回家
+  logout:
+    log_in: 重新登入
+    subtitle: 記住常回家看看。
+    title: 我們會想你的！
+  member_stats:
+    pics:
+      one: 1 張圖
+      other: "%{count_with_delimiter} 張圖"
+    posts:
+      one: 1 篇文章
+      other: "%{count_with_delimiter} 篇文章"
+    vids:
+      one: 1 部視頻
+      other: "%{count_with_delimiter} 部視頻"
+  nav:
+    events: 線下活動
+    explore: 發現
+    fetishes: 癖好
+    groups: 小組
+    home: 首頁
+    places: 地方
+    search_placeholder: 搜索 FetLife
+    videos: 視頻
+    writings: 寫作
+  page_break:
+    of: of
+  privacy:
+    title: 隱私
+  profile:
+    about_title: 好友列表
+    pictures_title: 圖片
+    videos_title: 視頻
+  promote_following:
+    button: 開啓關注
+    ps: P.S. 你可以隨時關閉關注功能。
+    skip: 不開啓關注功能
+    subtitle: 區分你的好友和你的關注者。
+    title: 引入「關注」功能
+  recommendations:
+    title: 推薦
+  reset_password:
+    cta: 重設密碼
+    error_confirmation_match: 兩遍密碼輸入不一致。
+    error_password_range: 密碼長度須在 8 - 100 之間。
+    error_token_expired: 密碼重設鏈接已失效，請重新發起密碼重設。
+    error_token_invalid: 密碼重設鏈接無效。
+    footnote: "<b>友情提示：</b>這次把你的密碼記好。"
+    label_enter: 新密碼
+    label_re_enter: 再輸一遍新密碼
+    status_flash_success: 你的密碼已成功更改。
+    subtitle: 別太短，也別太長，就這……
+    title: 重設密碼
+  select_language:
+    button: 修改默認語言
+    help_translate: 訪問我們的在 Github 上的 <a class="silver" href="https://github.com/fetlife/translations">翻譯項目</a>，一起幫忙讓 FetLife 能讓更多 kinky 的朋友加入進來。
+    language_name: 繁體中文（香港）
+    sub_header: Hi, hallo, olá, bonjour, ciao, ahoj, opa, szia, 你好, привет, merhaba!
+    title: 選擇語言
+  settings_account:
+    2fa_cta: 開啓兩步驗證
+    2fa_label: 兩步驗證
+    anti_pro_tip: <strong>坑爹提示：</strong>如果你真的想的話，你可以<a href="#">停用</a>或<a href="#">刪除</a>你的賬户。但是，統計顯示 99.97% 的專家不建議你那麼幹。
+    current_password_label: 當前密碼
+    email_cta: 更改郵箱地址
+    email_label: 郵箱
+    email_placeholder: 郵箱地址
+    language_cta: 更改默認語言
+    language_notice: FetLife 對英語以外的語言支持並不完善。如果你選擇非英語的語言的話，網站仍可能有一部分以英語顯示。
+    new_password_label: 新密碼
+    nickname_cta: 更改暱稱
+    nickname_label: 把你的暱稱從「JohnBaku」改為：
+    nickname_notice: "<strong>友情提示：</strong>想清楚再改噢。每 28 天內你僅可更改一次暱稱。別反悔。"
+    nickname_placeholder: 新暱稱
+    page_title: 更改密碼 - 設置
+    password_cta: 更改密碼
+    repeat_password_label: 重複密碼
+    subtitle: 別按那個大的紅色按鈕
+    title: 賬户設置
+  settings_notifications:
+    cta: 更改默認語言
+    language_label: 語言
+    notice: FetLife 對英語以外的語言支持並不完善。如果你選擇非英語的語言的話，網站仍可能有一部分以英語顯示。
+    page_title: 語言 - 設置
+    subtitle: 你的首選語言是什麼？
+    title: 語言
+  settings_privacy:
+    blocked_list_subtitle: 這些不乖的孩子們。
+    blocked_list_title: 屏蔽列表
+    cb_feed: 允許好友之外的用户關注我。
+    cb_fp: 允許我的公開文章出現在「鮮嫩多汁」。
+    cb_kp: 允許我的公開文章出現在「眾心所癖」。
+    content_privacy: 內容隱私
+    cta: 保存隱私設置
+    following: 關注中
+    page_title: 隱私設置
+    subtitle: 如你所好，精細調教。
+    title: 隱私
+    warning: "<strong>極其重要的警告</strong>：關閉關注功能將會使你的所有關注者立刻取消對你的關注。不可恢復。真的。"
+  settings_profile:
+    about_you_label: 關於你
+    add_website: "+ 其它網址"
+    cta: 更新你的資料
+    dob_label: 出生日期
+    location_label: 地點
+    looking_for_label: 尋找
+    page_title: 更新資料
+    subtitle: 個人成長是好事呀。
+    title: 你的資料
+    website_url_cant_be_blank: 鏈接不能為空的！
+    website_url_too_long: 這鏈接也太長了 (最大長度是 %{count} 個字符)
+    websites_label: 網站
+    websites_placeholder: https://fetlife.com
+  settings_support:
+    cta: 更改郵件地址
+    email_label: 更改郵件地址
+    email_placeholder: 郵件地址
+    page_title: 郵件地址 - 設置
+    subtitle: 以防萬一你忘了密碼。
+    title: 更改郵件地址
+  sidebar:
+    about_fetlife: 關於 Fetlife
+    ad_stats: 廣告統計
+    advertisers: 贊助商
+    advertising: 廣告
+    already_member: 已經註冊過？
+    androidapp: 安裝 FetLife Android 應用
+    bug_bounty: 懸賞 Bug
+    careers: 招聘
+    caretaking: 社區管理工具
+    change_language: 更改語言
+    close: 關閉
+    contact_us: 聯繫我們
+    edit_profile: 更改資料
+    edit_settings: 更改設置
+    events: 線下活動
+    fetishes: 癖好
+    following: 我關注的
+    formatting: 排版指南
+    fp: 鮮嫩多汁
+    friends_and_following: 好友及關注
+    funny_quote: 如果你看不清的話……你大約需要眼鏡了！——約翰福音 4:69
+    gift_support: 送別人「FetLife 贊助會員」
+    glossary: 術語表
+    groups: 小組
+    guidelines: 守則
+    home: 首頁
+    invite_a_friend: 邀請好友（%{count}）
+    kp: 眾心所癖
+    legalese: 法律事宜
+    log_out: 登出
+    login: 登入
+    loved_stuff: 你贊過的東西
+    need_help: 需要幫助？
+    open_source: 開源
+    places: 地方
+    preservation_requests: 保全請求
+    privacy: 隱私
+    recommendations: 推薦
+    signup: 註冊
+    subscriptions: 訂閲
+    support: 贊助 FetLife
+    terms: 條款
+    upload_picture: 上傳圖片
+    upload_video: 上傳視頻
+    videos: 視頻
+    view_friends: 查看好友列表
+    wallpapers: FetLife 壁紙
+    whats_new: 有啥新鮮的
+    write_post: 寫文章
+    writings: 寫作
+  signup:
+    almost_there: 快搞定了！
+    error_bar: 哦我的上帝，我們有麻煩了……向下滾動查看詳情。
+    error_bar_invalid_credentials: 你的暱稱、郵箱或密碼似乎有誤，請重試！
+    error_birthdate: 出生日期必填。
+    error_birthdate_too_old: 你太老了。
+    error_birthdate_too_young: 抱歉，滿 18 歲才可加入。
+    error_birthdate_too_young_on_update: 抱歉，你必須得滿 18 歲才能使用Fetlife。
+    error_city_missing: 城市必填。
+    error_country_missing: 國家必填。
+    error_email: 我們無法成功處理該地址。請檢查地址是否正確，或者更換其它地址重試。
+    error_gender_required: 性別必選。
+    error_nickname: 暱稱已被佔用。
+    error_nickname_characters: 暱稱只可包含字母、數字、橫槓（-）和下劃線（_）；不可包含空格。
+    error_nickname_length: 暱稱長度須在 2 - 16 個字符之間。
+    error_nickname_required: 暱稱必填。
+    error_nickname_tracked_term: 暱稱中不能包含 '%{term}' 這個詞。
+    error_password_range: 密碼長度須在 8 - 100 之間。
+    error_password_required: 密碼必填。
+    error_role_required: 角色必選。
+    error_sexual_orientation_required: 性取向必選。
+    error_state_missing: 省份/州份必選。
+    footnote: 點擊「完成註冊認證」代表你同意我們的<a class="gray link underline hover-moon-gray" href="%{tou_path}" target="_blank">使用守則</a>、<a class="gray link underline hover-moon-gray" href="%{privacy_path}" target="_blank">隱私政策</a>和<a class="gray link underline hover-moon-gray" href="%{guidelines_path}" target="_blank">社區守則</a>。
+    label:
+      birthdate: 出生日期
+      city: 城市
+      country: 國家
+      email: 郵箱地址
+      gender: 性別
+      location: 地點
+      nickname: 暱稱
+      password: 密碼
+      role: 角色
+      sexual_orientation: 性取向
+      state: 省份/州份
+    page_title: 加入
+    return_to_login: 已是註冊用户？立刻登入 FetLife
+    subtitle: 告訴我們一點點關於你的信息。
+    subtitle_invite: "%{name} 邀請你加入 FetLife。"
+    title: 歡迎到家
+  signup_avatar:
+    pro_tip: <strong>友情提示</strong>：如果你害羞並不想使用你的照片的話，別猶豫，展現創造力用別的圖片表達你自己！你也可以暫時 <a class="silver" href="%{next_step_path}">跳過此步</a>。
+    say_cheese: 説「茄子」！
+    subtitle: 統計數據顯示，有了頭像的 kinkster 比其它用户多出 69 倍的歡愉喔。
+    title: 上傳頭像
+  signup_five_strikes:
+    page_title: 連續五次錯誤
+    return_to_front: 返回首頁
+    subtitle_error: 糟糕。出於安全考慮，兩小時內你不能再試圖註冊。
+    title: 連續五次錯誤
+  signup_follow:
+    follow: 關注
+    next_step: 下一步
+    subtitle: 關注你感興趣的 kinkster 們吧。
+    title: 有誰吸引你眼球的不？
+  signup_phone:
+    cta: 發驗證碼給我
+    error_blocked: "<strong>親愛的小變態：</strong>抱歉，我們當前不支持使用 %{carrier_name} 的手機號註冊。"
+    error_cant_send: "<strong>親愛的小變態：</strong>我們無法向你發送短信。請確保你在號碼前加了國際區號：例如美國和加拿大的 +1、英國的 +44、澳洲的 +61、荷蘭的 +31、德國的 +49、法國的 +33 等等……也不要嘗試讓我們往你的座機發送短信。"
+    error_quota: "<strong>親愛的小變態：</strong>糟糕，我們 24 小時內只能向同一號碼發送三條短信。請稍後再試吧。"
+    explanation: 我們知道問得有點多了。但是，為了保證社區的健康運轉，我們需要驗證每一個用户。我們相信你成為老用户以後也會理解的。
+    label: 手機號
+    page_title: 發送驗證碼
+    pro_tip: "<strong>友情提示：</strong>請確保你在號碼前加了國際區號：例如美國和加拿大的 +1、英國的 +44、澳洲的 +61、荷蘭的 +31、德國的 +49、法國的 +33 等等……"
+    subtitle: 一次性匿名短信。
+    title: 到短信驗證的時候了！
+  signup_verify:
+    cta: 完成註冊認證
+    incorrect_code: "<strong>親愛的小變態：</strong>呃&hellip; 上面這個驗證碼似乎是錯的。請再檢查一下它是否和你收到的驗證碼一致再重試。"
+    label: 驗證碼
+    notice: 我們已將驗證碼發送至 <strong>%{phone_number}</strong>。如果過了好一會兒你還沒收到短信，<a class="silver" href="%{back_path}">換個號碼試試重新發送</a>。
+    page_title: 輸入驗證碼
+    placeholder: 6 位驗證碼
+    subtitle: 有點蛋疼，對吧？！
+    title: 最後一步
+  subnav:
+    feed:
+      activity_feed: 動態
+      activity_feed_short: 首頁
+      fp: 鮮嫩多汁
+      fp_short: 鮮嫩多汁
+      kp: 眾心所癖
+      kp_short: 眾心所癖
+    profile:
+      about: 關於我
+      about_short: 關於
+      latest: 最近動態
+      latest_short: 最近
+      pictures: 圖片
+      pictures_short: 圖
+      videos: 視頻
+      videos_short: 視頻
+      writings: 寫作
+      writings_short: 寫作
+    settings:
+      account: 賬户
+      account_short: 賬户
+      notifications: 通知
+      notifications_short: 通知
+      privacy: 隱私
+      privacy_short: 隱私
+      profile: 資料
+      profile_short: 資料
+      support: 贊助
+      support_short: 贊助
+  support:
+    benefits:
+      item_1: 你的資料頁上會有一個性感的 <span>I Support FetLife</span> 圖標。
+      item_2: 隨意查看<span>今日 %{number}+ 最受歡迎的</span>圖片、視頻等。
+      item_3: 觀看社區裏分享的<span>全部 %{number}+ 部視頻</span>。
+      item_4: 隨意查看<span>全部 %{number}+ 張用户分享的圖片</span>。
+      item_5: 查看<span>你贊過的所有東西</span>。
+      item_6: 好友動態可向前滾動的歷史變長<span>25 倍</span>。
+      item_7: "@你的動態可向前滾動的歷史變長<span>25 倍</span>。"
+      item_8: 如你所願<span>自定義你的動態頁</span>。
+      item_9: 第一時間<span>體驗最新功能</span>！
+      list_description: 每月只要 $5 美元，除了支持 FetLife 的開發維護外，你還能：
+      list_footer: 比一瓶潤滑劑還便宜呢……不過我們還是不建議你用菜籽油來代替潤滑劑……不是那麼好用。
+      thank_you: 沒有你的贊助，就沒有 FetLife。FetLife 大家庭忠心向你表示感謝！
+      title: 贊助 FetLife 我能得到啥？
+    cta_labels:
+      ach: 銀行轉賬 (ACH)
+      cc_curo: 信用卡
+      cc_trustpay: 信用卡
+      coingate: 比特幣
+      eps: EPS
+      giropay: GiroPay
+      ideal: iDEAL
+      interac: Interac e-Transfer
+      mail: Physical Mail
+      paygarden: 禮品卡
+      paysafe: paysafecard
+      poli: POLi Payments
+      przelewy: Przelewy24
+      sepa: SEPA Direct Debit
+      teleingreso: Teleingreso
+    errors:
+      account_number_blank: 賬户不能為空
+      address_blank: 地址不能為空
+      answer_blank: 答案不能為空
+      bankcode_blank: 銀行代碼不能為空
+      bic_blank: BIC 不能為空
+      bic_format: 無效的 BIC
+      canceled: 用户取消了轉賬。
+      city_blank: 城市不能為空
+      country_blank: 國家不能為空
+      double_failsafe: 您真想給我們打兩倍的錢？ 我們當然很高興啦，但是我們也怕你看到銀行賬單的時候來找我們麻煩。如有任何疑問，給我們發一封郵件 <a href="mailto:support@fetlife.com">support@fetlife.com</a>.
+      email_blank: 郵件地址不能為空
+      first_name_blank: 名不能為空
+      iban_blank: IBAN不能為空
+      info_missing: 缺了點什麼······再試試。
+      last_name_blank: 姓不能為空
+      postal_code_blank: 郵政編碼不能為空
+      question_blank: 安全問題不能為空
+      routing_number_blank: Routing Number 不能為空
+      state_blank: 地區不能為空
+    faq:
+      cc_a_part_1: We understand that it's a major inconvenience for many of you. But due to the number of content restrictions that come with accepting credit cards, the community as a whole has decided it's best for our long-term health and viability not to accept them.
+      cc_a_part_2: If we wanted to accept credit cards we couldn't allow kinksters on FetLife to discuss watersports, hypnosis, period sex, blood play, edge play, consensual non-consent, and many other kinks commonly accepted by the kinky community.
+      cc_a_part_3: As a community, we need a safe space for consenting adults to be able to be freely express themselves sexually. And if we accept credit cards or paypal, we would lose that freedom.
+      cc_q: Q. Why doesn't FetLife accept Credit Cards or Paypal?
+      gift_a: That’s super nice of you. Just visit their profile and click &ldquo;Gift Support&rdquo; link under &ldquo;Message Kinkster&rdquo; <i>#TheyWillLoveIt</i>
+      gift_q: Q. Want to gift support to someone?
+      month_a: Like Costco, we have to sell in bulk, to keep the monthly cost of supporting FetLife low!
+      month_q: Q. Why can’t I do 1-month?
+      name_a: 'It will appear as: BitLove Inc.'
+      name_q: Q. How will this appear on my bank statement?
+      question_a: If you have any questions, please don't hesitate to email us at&nbsp; <a href='mailto:support@fetlife.com'>support@fetlife.com</a>
+      question_q: Q. Have any questions?
+      renew_a: Never. We want to earn your support everytime.
+      renew_q: Q. Do you automatically renew my support?
+      return_a: We have a 7-day money back guarantee. Unfortunately though, if you support us using Gift Card Trade-In, POLi, Bitcoin, or Paysafecard, due to the nature of how they work, they are final sale.
+      return_q: Q. What’s your return policy?
+      secure_a: Yes, very. FetLife doesn’t store any of your personal info on our servers.  We just use the info you provide us to process your transaction and that's it.
+      secure_q: Q. Is this secure?
+      title: Frequently Asked Questions
+    gift:
+      affirm: You're the best!
+      confirm: I want to Gift Support to %{nickname}
+      header: Support FetLife Today!
+      subheader: And get all the <a href='%{link}'>sexy benefits</a> that come with being a supporter.
+      thank_you: Thank you for the support!
+      title: Gift Support to %{nickname}
+      yourself: Buy Support for Yourself
+    header:
+      subheader: And get all the <a href="%{link}">sexy benefits</a> that come with being a supporter.
+      title: Support FetLife Today!
+    step1:
+      ach:
+        extra_info: As straightforward and secure as paying by credit card for those with a bank account in the United States.
+        title: US Bank Transfer (ACH)
+      cc_curo:
+        extra_info: We accept Visa, V Pay, Mastercard, and Maestro. It's easy and secure.
+        title: Credit Card
+      cc_trustpay:
+        extra_info: We accept Visa and Mastercard. It's easy and secure.
+        title: Credit Card
+      coingate:
+        extra_info: Bitcoin is not as complicated as it sounds. And for the uninitiated, we will hold your hand through the process.
+        title: Bitcoin
+      eps:
+        extra_info: As straightforward and secure as paying by credit card for those with a bank account that supports EPS in Austria.
+        title: Austrian Bank Transfer (EPS)
+      giropay:
+        extra_info: As straightforward and secure as paying by credit card for those with a bank account that supports giropay in Germany.
+        title: German Bank Transfer (giropay)
+      ideal:
+        extra_info: As straightforward and secure as paying by credit card for those with a bank account that supports iDEAL in the Netherlands.
+        title: Dutch Bank Transfer (iDEAL)
+      interac:
+        extra_info: As straightforward and secure as paying by credit card for those with a bank account in Canada.
+        title: Canadian Interac e-Transfer
+      less_options: hide additional options
+      mail:
+        extra_info: If you're old school, we accept international money order, checks, or cash through the mail.
+        title: Physical Mail
+      more_options: show me more options
+      paygarden:
+        extra_info: Trade-in gift cards from 100+ brands including Starbucks, Best Buy, Target, Walmart, Home Depot, and Build-A-Bear.
+        title: Major Brand Gift Card Trade-In
+      paysafe:
+        extra_info: You can buy a Paysafecard and use it to support FetLife in over 500,000 physical stores, located in 43 countries worldwide.
+        title: Prepaid Paysafecard
+      poli:
+        extra_info: As straightforward and secure as paying by credit card for those with a bank account in Australia or New Zealand.
+        title: AU/NZ Bank Transfer (POLi)
+      przelewy:
+        extra_info: As straightforward and secure as paying by credit card for those with a bank account in Poland.
+        title: Przelewy24
+      sepa:
+        extra_info: As straightforward and secure as paying by credit card for those with a bank account that supports SEPA in Europe.
+        title: European Bank Transfer (SEPA)
+      teleingreso:
+        extra_info: As straightforward and secure as paying by credit card for those with a bank account in Spain.
+        title: Teleingreso
+      title: Select a Payment Method
+    step2:
+      120_info: "$5/month"
+      120_title: "$120 for 24 Months"
+      240_info: "<i>Priceless</i>"
+      240_title: "$240 for Lifetime!"
+      30_info: "$5/month"
+      30_title: "$30 for 6 Months"
+      60_info: "$5/month"
+      60_title: "$60 for 12 Months"
+      return_info: 7-day no questions asked money back guarantee.
+      title: How much do you love FetLife?
+    step2_paygarden:
+      confirm: I Have a Gift Card I Want to Trade for Support
+      list_footer: and <a href='%{link}'>100s of other major brands.</a>
+      list_header: We Accept Gift Cards From
+      secure: Secure as Fort Knox
+      tips: If you live outside of the United States, we recommend you use a VPN/Proxy and buy a gift card in USD from Starbucks or Targets US online stores.
+      tips_header: Tips &amp; Tricks
+      title: Buy a Gift Card from a Major Brand
+    step3_ach:
+      account_number_label: 'Account #'
+      account_number_placeholder: Account Number
+      account_number_sub_label: between 6 and 16 digits
+      account_type: Account Type
+      address_label: Address
+      address_sub_label: associated w/ bank account
+      check_hide: hide check
+      check_question: Where do I find these numbers on a check?
+      city_label: City
+      city_sub_label: associated w/ bank account
+      cta: Support FetLife Today
+      first_name_label: First Name
+      first_name_sub_label: associated w/ bank account
+      last_name_label: Last Name
+      last_name_sub_label: associated w/ bank account
+      routing_number_label: 'Bank Routing #'
+      routing_number_placeholder: Bank Routing Number
+      routing_number_sub_label: 9 digit number
+      secure: Secure as Fort Knox and we don't store any of your personal information.
+      state_label: State
+      state_placeholder: State
+      state_sub_label: associated w/ bank account
+      title: Online Check / Bank Transfer
+      type_checking: Checking
+      type_savings: Savings
+      zip_label: Zip Code
+      zip_sub_label: associated w/ bank account
+    step3_cc_curo:
+      cta: Support FetLife via Credit Card
+      first_name_label: First Name
+      first_name_sub_label: associated w/ credit card
+      last_name_label: Last Name
+      last_name_sub_label: associated w/ credit card
+      secure: Secure as Fort Knox and we don't store any of your personal information.
+      title: Credit Card Payment
+    step3_cc_trustpay:
+      cta: Support FetLife via Credit Card
+      pay_button: Support FetLife via Credit Card
+      secure: Secure as Fort Knox and we don't store any of your personal information.
+      title: Credit Card Payment
+    step3_coingate:
+      cta: Support FetLife via Bitcoin
+      intro: 'Bitcoin is a digital currency. Some intro videos we enjoyed watching:'
+      secure: Secure as Fort Knox
+      title: "“How To” for Bitcoin"
+      title_html: "&ldquo;How To&rdquo; for Bitcoin"
+      wallets_list_header: 'We''ve had good experience with the following wallet provider:'
+      wallets_title: Recommended Bitcoin Wallets
+      what: What is Bitcoin?
+    step3_eps:
+      address_label: Address
+      address_sub_label: associated w/ bank account
+      city_label: City
+      city_sub_label: associated w/ bank account
+      cta: Make EPS Payment
+      first_name_label: First Name
+      first_name_sub_label: associated w/ bank account
+      last_name_label: Last Name
+      last_name_sub_label: associated w/ bank account
+      postal_code_label: Postal Code
+      postal_code_sub_label: associated w/ bank account
+      secure: Secure as Fort Knox and we don't store any of your personal information.
+      title: EPS Payment
+    step3_giropay:
+      account_number_label: 'Account #'
+      account_number_placeholder: Account Number
+      account_number_sub_label: Valid Bank Account Number
+      address_label: Address
+      address_sub_label: associated w/ bank account
+      city_label: City
+      city_sub_label: associated w/ bank account
+      cta: Make giropay Payment
+      first_name_label: First Name
+      first_name_sub_label: associated w/ bank account
+      last_name_label: Last Name
+      last_name_sub_label: associated w/ bank account
+      postal_code_label: Postal Code
+      postal_code_sub_label: associated w/ bank account
+      routing_number_label: BIC / SWIFT Code
+      routing_number_placeholder: Bank Identifier Code
+      routing_number_sub_label: 8 or 11 characters long
+      secure: Secure as Fort Knox and we don't store any of your personal information.
+      title: giropay Payment
+    step3_ideal:
+      address_label: Address
+      address_sub_label: associated w/ bank account
+      city_label: City
+      city_sub_label: associated w/ bank account
+      cta: Make iDEAL Payment
+      first_name_label: First Name
+      first_name_sub_label: associated w/ bank account
+      last_name_label: Last Name
+      last_name_sub_label: associated w/ bank account
+      postal_code_label: Postal Code
+      postal_code_sub_label: associated w/ bank account
+      secure: Secure as Fort Knox and we don't store any of your personal information.
+      title: iDEAL Payment
+    step3_interac:
+      amount: 'Amount:'
+      answer_label: 'Answer:'
+      answer_placeholder: Answer
+      cta: I've Sent the Interac e-Transfer
+      question_label: 'Security Question:'
+      question_placeholder: Security Question
+      send: 'Send to:'
+      thank_you: Thank You!
+      title: Send Interac e-Transfer
+    step3_mail:
+      accept_options: International Money Order, Check, or Cash
+      accept_title: 'We Accept:'
+      amount: 'Amount:'
+      cta: Email Me the Above Info
+      email_to: We will email it to %{email}.
+      memo: 'Memo/Re:'
+      send: 'Send to:'
+      title: Send Mail
+      to_options: BitLove Inc.
+      to_title: 'Payable to:'
+      update_email: update email
+    step3_paysafe:
+      cta: I Already Have a Paysafecard
+      notice_body: Unfortunately, Paysafecards bought in the USA are not supported due to constraints imposed by the bank that they use in the USA. Paysafecards purchased in all other countries are accepted.
+      notice_title: Important Information for our American Friends
+      secure: Secure as Fort Knox
+      stores: You can find stores within walking distance of you that sell paysafecards. Don't believe us?
+      stores_link: Find the closest stores to me that sell paysafecards
+      title: Buy a Prepaid Paysafecard
+      where: Where can I buy a paysafecard?
+    step3_poli:
+      address_label: Address
+      address_sub_label: associated w/ bank account
+      city_label: City
+      city_sub_label: associated w/ bank account
+      country_label: Country
+      country_placeholder: Country
+      country_sub_label: associated w/ bank account
+      cta: Make POLi Payment
+      first_name_label: First Name
+      first_name_sub_label: associated w/ bank account
+      last_name_label: Last Name
+      last_name_sub_label: associated w/ bank account
+      postal_code_label: Postal Code
+      postal_code_sub_label: associated w/ bank account
+      secure: Secure as Fort Knox and we don't store any of your personal information.
+      state_label: State / Province
+      state_sub_label: associated w/ bank account
+      title: POLi Payment
+    step3_przelewy:
+      address_label: Address
+      address_sub_label: associated w/ bank account
+      city_label: City
+      city_sub_label: associated w/ bank account
+      cta: Make Przelewy24 Payment
+      first_name_label: First Name
+      first_name_sub_label: associated w/ bank account
+      last_name_label: Last Name
+      last_name_sub_label: associated w/ bank account
+      postal_code_label: Postal Code
+      postal_code_sub_label: associated w/ bank account
+      secure: Secure as Fort Knox and we don't store any of your personal information.
+      title: Przelewy24 Payment
+    step3_sepa:
+      address_label: Address
+      address_sub_label: associated w/ bank account
+      bic_label: BIC / SWIFT Code
+      bic_placeholder: Bank Identifier Code
+      bic_sub_label: 8 or 11 characters long
+      city_label: City
+      city_sub_label: associated w/ bank account
+      country_label: Country
+      country_placeholder: Country
+      country_sub_label: associated w/ bank account
+      cta: Support FetLife Now
+      first_name_label: First Name
+      first_name_sub_label: associated w/ bank account
+      iban_label: IBAN
+      iban_placeholder: International Bank Account Number
+      iban_sub_label: up to 34 alphanumeric characters
+      last_name_label: Last Name
+      last_name_sub_label: associated w/ bank account
+      postal_code_label: Postal Code
+      postal_code_sub_label: associated w/ bank account
+      secure: Secure as Fort Knox and we don't store any of your personal information.
+      title: SEPA Payment Information
+    step3_teleingreso:
+      address_label: Address
+      address_sub_label: associated w/ bank account
+      city_label: City
+      city_sub_label: associated w/ bank account
+      cta: Make Teleingreso Payment
+      first_name_label: First Name
+      first_name_sub_label: associated w/ bank account
+      last_name_label: Last Name
+      last_name_sub_label: associated w/ bank account
+      postal_code_label: Postal Code
+      postal_code_sub_label: associated w/ bank account
+      secure: Secure as Fort Knox and we don't store any of your personal information.
+      title: Teleingreso Payment
+    thank_you:
+      body: No seriously, <span>a big thank you for your support</span>. It means a lot to us that you've contributed your hard earned money to help support FetLife’s continued improvement and development.
+      cta_home: Take Me Home
+      gift_affirm: You're the best!
+      gift_cta_profile: Visit %{nickname}'s Profile
+      gift_next_body: While you're reading this we are giving your gift of support to <a href="%{link}">%{nickname}</a> and notifying them via email of your generous gift.
+      gift_next_title: What's next?
+      page_title: Thank You!
+      questions_body: If you have any questions, please don’t hesitate to email us at <a href='mailto:support@fetlife.com'>support@fetlife.com</a>.
+      questions_title: Got Questions?
+      tab_title: Thank You
+      thank_you: Thanks Again!
+    thank_you_interac:
+      cta_home: Take Me to My Feed
+      next_steps_final_default: will attach it to your profile and notify you.
+      next_steps_final_gift: will attach it to %{nickname}'s profile.
+      next_steps_first: It can <span>take a couple of hours</span> before we receive your Interac e-Transfer, but once we get it we
+      next_steps_title: 'Next Steps:'
+      page_title: Thank You <span class='baskerville i'>&amp;</span> Next Steps
+      tab_title: Thank You & Next Steps
+      thank_you: Thank You!
+    title: Help Support FetLife!
