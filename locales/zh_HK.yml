@@ -1,46 +1,46 @@
 ---
-zh:
+zh-HK:
   2fa:
     5strike:
-      return: 返回首頁
-      subtitle: 糟糕。出於安全考慮，兩小時內你不能再試圖登入。
+      return: 回到首頁
+      subtitle: 弊，出於安全考慮，兩小時內你不能再嘗試登入了。
       title: 五次登入失敗
-    cta: 是我！放我進去！
-    error: "<strong>親愛的小變態：</strong>呃&hellip; 上面這個驗證碼似乎是錯的。請再檢查一下它是否和你收到的驗證碼一致再重試。"
+    cta: 是我！放我入去！
+    error: "<strong>Kinky用戶：</strong>呃&hellip; 上面這個驗證碼似乎是錯的。請檢查一下與你收到的驗證碼是否一致後再試。"
     label: 驗證授權碼
-    page_title: 兩步驗證
-    subtitle: 給我來個兩步驗證吧！
+    page_title: 雙重驗證
+    subtitle: 給我雙重驗證吧！
     title: 安全碼
   about:
-    contact_info: 聯繫方式
-    email_us: 請發郵件至 <a href="mailto:support@fetlife.com">support@fetlife.com</a>，我們會盡快回復——就像抹了潤滑油一樣快!
+    contact_info: 聯略方法
+    email_us: 請電郵至 <a href="mailto:support@fetlife.com">support@fetlife.com</a>，我們會極速回覆！
     europe: 歐洲
-    got_question: 有疑問？需要幫助？
+    got_question: 有問題？需要幫忙？
     north_america: 北美
-    one_love: 一生一愛情，還有非常大量的怪癖。
-    snail_mail: 老派郵件地址
-    sub_header: 不，不是斯巴達
+    one_love: 愛情一生一世，還有非常多的怪癖。
+    snail_mail: 傳統通訊地址
+    sub_header: 不，不是斯巴達人
     title: 我們・是・FetLife！
   components:
     step: 步驟
   edit_profile:
     sidebar_questions:
-      pics_and_vids_discoverability_a: 當有人使用 FetLife 搜索時，你的怪癖照片和視頻只會被朋友和粉絲看到。如果你想對其他 FetLife 使用者可見，請更新你的隱私設置。
-      pics_and_vids_discoverability_link: 訪問設置
-      pics_and_vids_discoverability_q: 保持私密
+      pics_and_vids_discoverability_a: 當有人在 FetLife 搜尋時，你的相片和影片只會被朋友和粉絲看到。如果你想向其他 FetLife 使用者顯示，請更新你的私隱設定。
+      pics_and_vids_discoverability_link: 前往設定
+      pics_and_vids_discoverability_q: 相片影片顯示度
   feed:
-    comment: 評論
+    comment: 留言
     comments_count:
-      one: 一條評論
-      other: "%{count_with_delimiter} 條評論"
+      one: 1個留言
+      other: "%{count_with_delimiter}個留言"
     composer:
       button: 發表
-      placeholder: 你想説點啥？
+      placeholder: 你想説甚麼？
     love: 大讚
     loved_hover: 傷心了！:-(
     loves_count:
-      one: 一個贊
-      other: "%{count_with_delimiter} 個贊"
+      one: 1個讚好
+      other: "%{count_with_delimiter}個讚好"
     modal:
       close: 關閉
       more: 更多
@@ -51,43 +51,43 @@ zh:
     following: 關注中
   footer:
     advertising: 廣告
-    contact: 聯繫我們
+    contact: 聯略我們
     glossary: 術語表
     help: 幫助
-    privacy: 隱私
+    privacy: 私隱
   forgot_password:
     email:
-      cta: 發送密碼重置郵件
-      error_forgot_email: 郵箱地址必填。
-      error_invalid_email: 這看上去不像個郵箱地址啊喂。仔細檢查一下再重新提交吧。
-      error_quota: 我們剛剛給上面的郵箱地址發了重置郵件，可能得花幾個幾分鐘到達你的郵箱。如果10分鐘後還是沒收到，請再查查看垃圾郵件分類。如果垃圾郵件箱裏也沒有的話，你可能就得再來一次。
-      placeholder: 郵箱地址。
+      cta: 發送重設密碼電郵
+      error_forgot_email: 電郵地址必填。
+      error_invalid_email: 這看上去不像電郵地址啊喂。仔細檢查一下再重新提交吧。
+      error_quota: 我們剛剛寄了重設密碼電郵到以上的電郵地址，可能需要5-10分鐘才到達你的電子郵件信箱。請再三查看垃圾郵件信箱。如果10分鐘後還是沒有收到，請你再次重設密碼。
+      placeholder: 電郵地址
       step1:
-        page_title: 通過郵件重置密碼
-        subtitle: 我來幫你搞掂。
-        title: 忘了密碼？
+        page_title: 通過電郵重設密碼
+        subtitle: 讓我來幫你。
+        title: 忘記密碼？
       step2:
-        page_title: 你也許會收到郵件
-        subtitle: 如果系統裏有通過 <span class='fw7'>%{given_email}</span> 註冊的用户的話，那我們已經發了一封重置密碼用的郵件了。
-        title: 你&ldquo;也許&rdquo;會收到郵件
-      update_email: 更改郵箱地址
-      warning: "<strong>提示：</strong>出於安全考慮，我們不能告訴你這個郵箱地址有沒有出現在我們的數據庫裏。如果你沒有收到郵件，那大抵就是沒有任何用户關聯過這個郵箱地址了。"
+        page_title: 你「也許」收到電郵
+        subtitle: 如果系統裏有通過 <span class='fw7'>%{given_email}</span> 註冊的用户，那我們寄了重設密碼電郵給你。
+        title: 你「也許」收到電郵！
+      update_email: 更改電郵地址
+      warning: "<strong>提示：</strong>出於安全考慮，我們不能告訴你這個電郵地址是否在我們的系統內。如果你沒有收到電郵，那或許沒有任何用户用這個電郵地址登記了。"
     mobile:
       5strike:
-        return: 返回首頁
-        subtitle: 糟糕。出於安全考慮，兩小時內你不能再試圖登入。
+        return: 回到首頁
+        subtitle: 弊，出於安全考慮，兩小時內你不能再嘗試登入了。
         title: 五次登入失敗
-      cta: 發短信給我
-      error_country_code: "<strong>親愛的小變態：</strong>請確保你在號碼前加了國際區號：例如美國和加拿大的 +1、英國的 +44、澳洲的 +61、荷蘭的 +31、德國的 +49、法國的 +33 等等……"
-      error_quota: "<strong>親愛的小變態：</strong>糟糕，我們 24 小時內只能向同一號碼發送三條短信，無論這個號碼是否真的存在在我們的用户列表裏。"
-      pro_tip: "<strong>注意：</strong>請確保你在號碼前加了國際區號：例如美國和加拿大的 +1、英國的 +44、澳洲的 +61、荷蘭的 +31、德國的 +49、法國的 +33 等等……"
+      cta: 寄短訊給我
+      error_country_code: "<strong>Kinky用戶：</strong>請確保你在號碼前加了國際區號：例如美國和加拿大的 +1、英國的 +44、澳洲的 +61、荷蘭的 +31、德國的 +49、法國的 +33、香港的 +852 等等"
+      error_quota: "<strong>Kinky用戶：</strong>弊，我們24小時內只能向同一個號碼發送3條短訊。無論這個號碼是否在我們的系統內。"
+      pro_tip: "<strong>注意：</strong>請確保你在號碼前加了國際區號：例如美國和加拿大的 +1、英國的 +44、澳洲的 +61、荷蘭的 +31、德國的 +49、法國的 +33、香港的 +852 等等"
       step1:
-        page_title: 通過短信重置密碼
-        subtitle: 我來幫你搞掂。
-        title: 忘了密碼？
+        page_title: 通過短訊重設密碼
+        subtitle: 讓我來幫你。
+        title: 忘記密碼？
       step2:
         cta: 驗證你的身份 &#8482;
-        error_code_match: "<strong>親愛的小變態：</strong>你輸入的驗證碼不對。請確認你輸入的和你收到的驗證碼一致，再重試。"
+        error_code_match: "<strong>Kinky用戶：</strong>你輸入的驗證碼不對。請確認你輸入的和你收到的驗證碼一致，再重試。"
         inexisting_number: 如果過了好一會兒你還沒收到，那可能是因為你沒有綁定過這個號碼。我們建議你要麼<a href="%{forgot_password_email_path}">使用其它方式重置密碼</a>，要麼<a href="%{signup_path}">重新註冊個用户</a>吧。
         label: 6 位驗證碼
         page_title: 輸入驗證碼
