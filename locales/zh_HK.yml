@@ -6,7 +6,7 @@ zh-HK:
       subtitle: 弊，出於安全考慮，兩小時內你不能再嘗試登入了。
       title: 五次登入失敗
     cta: 是我！放我入去！
-    error: "<strong>Kinky用戶：</strong>呃&hellip; 上面這個驗證碼似乎是錯的。請檢查一下與你收到的驗證碼是否一致後再試。"
+    error: "<strong>變態操作員：</strong>呃&hellip; 上面這個驗證碼似乎是錯的。請檢查一下與你收到的驗證碼是否一致後再試。"
     label: 驗證授權碼
     page_title: 雙重驗證
     subtitle: 給我雙重驗證吧！
@@ -78,76 +78,76 @@ zh-HK:
         subtitle: 弊，出於安全考慮，兩小時內你不能再嘗試登入了。
         title: 五次登入失敗
       cta: 寄短訊給我
-      error_country_code: "<strong>Kinky用戶：</strong>請確保你在號碼前加了國際區號：例如美國和加拿大的 +1、英國的 +44、澳洲的 +61、荷蘭的 +31、德國的 +49、法國的 +33、香港的 +852 等等"
+      error_country_code: "<strong>變態操作員：</strong>請確保你在號碼前加了國際區號：例如美國和加拿大的 +1、英國的 +44、澳洲的 +61、荷蘭的 +31、德國的 +49、法國的 +33 等等"
       error_quota: "<strong>Kinky用戶：</strong>弊，我們24小時內只能向同一個號碼發送3條短訊。無論這個號碼是否在我們的系統內。"
-      pro_tip: "<strong>注意：</strong>請確保你在號碼前加了國際區號：例如美國和加拿大的 +1、英國的 +44、澳洲的 +61、荷蘭的 +31、德國的 +49、法國的 +33、香港的 +852 等等"
+      pro_tip: "<strong>注意：</strong>請確保你在號碼前加了國際區號：例如美國和加拿大的 +1、英國的 +44、澳洲的 +61、荷蘭的 +31、德國的 +49、法國的 +33 等等"
       step1:
         page_title: 通過短訊重設密碼
         subtitle: 讓我來幫你。
         title: 忘記密碼？
       step2:
         cta: 驗證你的身份 &#8482;
-        error_code_match: "<strong>Kinky用戶：</strong>你輸入的驗證碼不對。請確認你輸入的和你收到的驗證碼一致，再重試。"
-        inexisting_number: 如果過了好一會兒你還沒收到，那可能是因為你沒有綁定過這個號碼。我們建議你要麼<a href="%{forgot_password_email_path}">使用其它方式重置密碼</a>，要麼<a href="%{signup_path}">重新註冊個用户</a>吧。
+        error_code_match: "<strong>變態操作員：</strong>你輸入的驗證碼不對。請確認你輸入的和你收到的驗證碼一致，再重試。"
+        inexisting_number: 如果過了好一會兒你還沒收到，那可能是因為你沒有綁定過這個號碼。我們建議你可以<a href="%{forgot_password_email_path}">使用其他方法重設密碼</a>，或者<a href="%{signup_path}">重新註冊用户</a>吧。
         label: 6 位驗證碼
         page_title: 輸入驗證碼
         subtitle: 請輸入我們也許已經發至 %{phone_number} 的 6 位驗證碼。
         title: 輸入驗證碼
-      warning: "<strong>提示：</strong>出於安全考慮，我們不能告訴你這個手機號有沒有出現在我們的數據庫裏。如果你沒有收到短信，那大抵就是沒有任何用户關聯過這個手機號了。"
+      warning: "<strong>提示：</strong>出於安全考慮，我們不能告訴你這個手機號碼有沒有在我們的系統內。如果你沒有收到短訊，那或許就是沒有任何用户使用過這個手機號碼了。"
     next_step: 下一步
-    return_to_login: 返回登入頁
-    tab_email: 郵箱
-    tab_mobile: 手機號
+    return_to_login: 返回登入頁面
+    tab_email: 電郵信箱
+    tab_mobile: 手機號碼
   groups:
     new:
-      description_label: 描述
-      description_placeholder: 這個小組是幹嘛的？
+      description_label: 介紹
+      description_placeholder: 這個群組是做甚麼的？
       loader_text: Oh no you didn't!
-      membership_restrictions_label: 面向誰？
-      membership_restrictions_placeholder: 比如，submissives
+      membership_restrictions_label: 目標用戶？
+      membership_restrictions_placeholder: 例如，submissives
       membership_restrictions_sub_label: 如果來者不拒，就留空這裏
       name_label: 名稱
-      name_placeholder: 給小組取個好聽的名兒
-      page_title: 創建新的小組
-      return_to_groups_link_text: 返回羣組列表
+      name_placeholder: 給群組取個好聽的名稱
+      page_title: 創建新的群組
+      return_to_groups_link_text: 返回群組列表
       rules_label: 守則
-      rules_placeholder: 這個小組的守則是什麼?
-      submit_button_text: 創建我的新小組
+      rules_placeholder: 這個群組的守則是什麼?
+      submit_button_text: 創建我的新群組
       terms_and_conditions_community_guidelines_link: 社區守則
-      terms_and_conditions_group_leader_guidelines_link: 小組管理員守則
-      terms_and_conditions_terms_of_use_link: 用户協議
+      terms_and_conditions_group_leader_guidelines_link: 群組管理員守則
+      terms_and_conditions_terms_of_use_link: 用戶協議
       title_description: 一個讓變態們分享經驗，交流愛好，制定計劃等等的地方！
-      title_title: 創建新的小組
+      title_title: 創建新的群組
   guidelines:
     header: FetLife 指南與守則
     headers:
       community: 社區守則
       content: 內容守則
-      group_leader: 小組管理員守則
+      group_leader: 群組管理員守則
       values: 核心價值
     last_updated: 最近更新於：
     sections:
       guidelines:
-        description: 為保證每個人都能享受 FetLife，我們請求所有用户遵守我們的內容、社羣及小組守則。
+        description: 為保證每個人都能享受 FetLife，我們請求所有用戶遵守我們的內容、社群及小組守則。
         title: 守則
       legalese:
-        description: 此部分為所有用户註冊 FetLife 時所同意的使用條款。我們已讓其儘可能簡潔明瞭。
+        description: 此部分為所有用户註冊 FetLife 時所同意的使用條款。我們已經盡可能簡潔清晰。
         title: 條款
       privacy:
-        description: FetLife 怎樣保護你的數據安全？在 FetLife，我們如同對待自己的數據一樣保護你的數據隱私。
-        title: 隱私
-    subheader: 你能在這裏看到我們的網站守則、法律信息以及隱私政策。
+        description: FetLife 怎樣保護你的資料安全？在 FetLife，我們如同對待自己的資料一樣保護你的資料私隱。
+        title: 私隱
+    subheader: 你能在這裏看到我們的網站守則、法律信息以及私隱政策。
     subnav:
-      community: 社羣
+      community: 社群
       content: 內容
-      group_leader: 小組管理員
+      group_leader: 群組管理員
       values: Values
     title: 守則
   invite_a_friend:
     cancel_button: 取消
     cancel_notice: 發給 %{email} 的邀請已被撤銷。
     cta: 邀請你的好友加入 FetLife
-    error: 我們無法成功發送郵件至該地址。請檢查地址是否正確，或者更換其它地址重試。
+    error: 我們無法成功發送郵件至該地址。請檢查地址是否正確，或者更換其他地址重試。
     error_forgot_email: 郵箱地址必填。
     invitations_accepted: 邀請已被接受
     invitations_sent: 邀請已發出
